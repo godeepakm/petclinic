@@ -1,0 +1,1379 @@
+{
+  "graphName" : "spring-petclinic",
+  "artifacts" : [ {
+    "id" : "org.jadira.usertype:usertype.core:jar",
+    "numericId" : 1,
+    "groupId" : "org.jadira.usertype",
+    "artifactId" : "usertype.core",
+    "version" : "3.2.0.GA",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.jadira.usertype:usertype.spi:jar",
+    "numericId" : 2,
+    "groupId" : "org.jadira.usertype",
+    "artifactId" : "usertype.spi",
+    "version" : "3.2.0.GA",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.samples:spring-petclinic:war",
+    "numericId" : 3,
+    "groupId" : "org.springframework.samples",
+    "artifactId" : "spring-petclinic",
+    "version" : "1.0.0-SNAPSHOT",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "war" ]
+  }, {
+    "id" : "org.apache.tomcat:tomcat-servlet-api:jar",
+    "numericId" : 4,
+    "groupId" : "org.apache.tomcat",
+    "artifactId" : "tomcat-servlet-api",
+    "version" : "7.0.59",
+    "optional" : false,
+    "scopes" : [ "provided" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "javax.servlet.jsp:javax.servlet.jsp-api:jar",
+    "numericId" : 5,
+    "groupId" : "javax.servlet.jsp",
+    "artifactId" : "javax.servlet.jsp-api",
+    "version" : "2.2.1",
+    "optional" : false,
+    "scopes" : [ "provided" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.tomcat:tomcat-jasper-el:jar",
+    "numericId" : 6,
+    "groupId" : "org.apache.tomcat",
+    "artifactId" : "tomcat-jasper-el",
+    "version" : "7.0.59",
+    "optional" : false,
+    "scopes" : [ "provided" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.tomcat:tomcat-el-api:jar",
+    "numericId" : 7,
+    "groupId" : "org.apache.tomcat",
+    "artifactId" : "tomcat-el-api",
+    "version" : "7.0.59",
+    "optional" : false,
+    "scopes" : [ "provided" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:jar",
+    "numericId" : 8,
+    "groupId" : "javax.servlet.jsp.jstl",
+    "artifactId" : "javax.servlet.jsp.jstl-api",
+    "version" : "1.2.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.taglibs:taglibs-standard-jstlel:jar",
+    "numericId" : 9,
+    "groupId" : "org.apache.taglibs",
+    "artifactId" : "taglibs-standard-jstlel",
+    "version" : "1.2.5",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.taglibs:taglibs-standard-spec:jar",
+    "numericId" : 10,
+    "groupId" : "org.apache.taglibs",
+    "artifactId" : "taglibs-standard-spec",
+    "version" : "1.2.5",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.taglibs:taglibs-standard-impl:jar",
+    "numericId" : 11,
+    "groupId" : "org.apache.taglibs",
+    "artifactId" : "taglibs-standard-impl",
+    "version" : "1.2.5",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.jayway.jsonpath:json-path:jar",
+    "numericId" : 12,
+    "groupId" : "com.jayway.jsonpath",
+    "artifactId" : "json-path",
+    "version" : "0.9.1",
+    "optional" : false,
+    "scopes" : [ "test" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "net.minidev:json-smart:jar",
+    "numericId" : 13,
+    "groupId" : "net.minidev",
+    "artifactId" : "json-smart",
+    "version" : "1.2",
+    "optional" : false,
+    "scopes" : [ "test" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter:jar",
+    "numericId" : 14,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter",
+    "version" : "1.2.5.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot:jar",
+    "numericId" : 15,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot",
+    "version" : "1.2.5.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-autoconfigure:jar",
+    "numericId" : 16,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-autoconfigure",
+    "version" : "1.2.5.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter-logging:jar",
+    "numericId" : 17,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-logging",
+    "version" : "1.2.5.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.slf4j:jcl-over-slf4j:jar",
+    "numericId" : 18,
+    "groupId" : "org.slf4j",
+    "artifactId" : "jcl-over-slf4j",
+    "version" : "1.7.12",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.slf4j:jul-to-slf4j:jar",
+    "numericId" : 19,
+    "groupId" : "org.slf4j",
+    "artifactId" : "jul-to-slf4j",
+    "version" : "1.7.12",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.slf4j:log4j-over-slf4j:jar",
+    "numericId" : 20,
+    "groupId" : "org.slf4j",
+    "artifactId" : "log4j-over-slf4j",
+    "version" : "1.7.12",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-core:jar",
+    "numericId" : 21,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-core",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.yaml:snakeyaml:jar",
+    "numericId" : 22,
+    "groupId" : "org.yaml",
+    "artifactId" : "snakeyaml",
+    "version" : "1.14",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-aop:jar",
+    "numericId" : 23,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-aop",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "aopalliance:aopalliance:jar",
+    "numericId" : 24,
+    "groupId" : "aopalliance",
+    "artifactId" : "aopalliance",
+    "version" : "1.0",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter-aop:jar",
+    "numericId" : 25,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-aop",
+    "version" : "1.2.5.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter-data-jpa:jar",
+    "numericId" : 26,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-data-jpa",
+    "version" : "1.2.5.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.boot:spring-boot-starter-jdbc:jar",
+    "numericId" : 27,
+    "groupId" : "org.springframework.boot",
+    "artifactId" : "spring-boot-starter-jdbc",
+    "version" : "1.2.5.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "javax.transaction:javax.transaction-api:jar",
+    "numericId" : 28,
+    "groupId" : "javax.transaction",
+    "artifactId" : "javax.transaction-api",
+    "version" : "1.2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-orm:jar",
+    "numericId" : 29,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-orm",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.data:spring-data-jpa:jar",
+    "numericId" : 30,
+    "groupId" : "org.springframework.data",
+    "artifactId" : "spring-data-jpa",
+    "version" : "1.7.3.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.data:spring-data-commons:jar",
+    "numericId" : 31,
+    "groupId" : "org.springframework.data",
+    "artifactId" : "spring-data-commons",
+    "version" : "1.9.3.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-aspects:jar",
+    "numericId" : 32,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-aspects",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.data:spring-data-jdbc-core:jar",
+    "numericId" : 33,
+    "groupId" : "org.springframework.data",
+    "artifactId" : "spring-data-jdbc-core",
+    "version" : "1.1.0.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework.retry:spring-retry:jar",
+    "numericId" : 34,
+    "groupId" : "org.springframework.retry",
+    "artifactId" : "spring-retry",
+    "version" : "1.1.2.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-jdbc:jar",
+    "numericId" : 35,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-jdbc",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-beans:jar",
+    "numericId" : 36,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-beans",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-tx:jar",
+    "numericId" : 37,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-tx",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-webmvc:jar",
+    "numericId" : 38,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-webmvc",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-context:jar",
+    "numericId" : 39,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-context",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-expression:jar",
+    "numericId" : 40,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-expression",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-web:jar",
+    "numericId" : 41,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-web",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-context-support:jar",
+    "numericId" : 42,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-context-support",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-oxm:jar",
+    "numericId" : 43,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-oxm",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.aspectj:aspectjrt:jar",
+    "numericId" : 44,
+    "groupId" : "org.aspectj",
+    "artifactId" : "aspectjrt",
+    "version" : "1.8.6",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.aspectj:aspectjweaver:jar",
+    "numericId" : 45,
+    "groupId" : "org.aspectj",
+    "artifactId" : "aspectjweaver",
+    "version" : "1.8.6",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.tomcat:tomcat-jdbc:jar",
+    "numericId" : 46,
+    "groupId" : "org.apache.tomcat",
+    "artifactId" : "tomcat-jdbc",
+    "version" : "7.0.59",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.apache.tomcat:tomcat-juli:jar",
+    "numericId" : 47,
+    "groupId" : "org.apache.tomcat",
+    "artifactId" : "tomcat-juli",
+    "version" : "7.0.59",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.slf4j:slf4j-api:jar",
+    "numericId" : 48,
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-api",
+    "version" : "1.7.12",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "ch.qos.logback:logback-classic:jar",
+    "numericId" : 49,
+    "groupId" : "ch.qos.logback",
+    "artifactId" : "logback-classic",
+    "version" : "1.1.3",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "ch.qos.logback:logback-core:jar",
+    "numericId" : 50,
+    "groupId" : "ch.qos.logback",
+    "artifactId" : "logback-core",
+    "version" : "1.1.3",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "joda-time:joda-time:jar",
+    "numericId" : 51,
+    "groupId" : "joda-time",
+    "artifactId" : "joda-time",
+    "version" : "2.5",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "joda-time:joda-time-hibernate:jar",
+    "numericId" : 52,
+    "groupId" : "joda-time",
+    "artifactId" : "joda-time-hibernate",
+    "version" : "1.3",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "joda-time:joda-time-jsptags:jar",
+    "numericId" : 53,
+    "groupId" : "joda-time",
+    "artifactId" : "joda-time-jsptags",
+    "version" : "1.1.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.hsqldb:hsqldb:jar",
+    "numericId" : 54,
+    "groupId" : "org.hsqldb",
+    "artifactId" : "hsqldb",
+    "version" : "2.3.3",
+    "optional" : false,
+    "scopes" : [ "runtime" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.hibernate:hibernate-entitymanager:jar",
+    "numericId" : 55,
+    "groupId" : "org.hibernate",
+    "artifactId" : "hibernate-entitymanager",
+    "version" : "4.3.10.Final",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.jboss.logging:jboss-logging:jar",
+    "numericId" : 56,
+    "groupId" : "org.jboss.logging",
+    "artifactId" : "jboss-logging",
+    "version" : "3.1.3.GA",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.jboss.logging:jboss-logging-annotations:jar",
+    "numericId" : 57,
+    "groupId" : "org.jboss.logging",
+    "artifactId" : "jboss-logging-annotations",
+    "version" : "1.2.0.Beta1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.hibernate:hibernate-core:jar",
+    "numericId" : 58,
+    "groupId" : "org.hibernate",
+    "artifactId" : "hibernate-core",
+    "version" : "4.3.10.Final",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "antlr:antlr:jar",
+    "numericId" : 59,
+    "groupId" : "antlr",
+    "artifactId" : "antlr",
+    "version" : "2.7.7",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.jboss:jandex:jar",
+    "numericId" : 60,
+    "groupId" : "org.jboss",
+    "artifactId" : "jandex",
+    "version" : "1.1.0.Final",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "dom4j:dom4j:jar",
+    "numericId" : 61,
+    "groupId" : "dom4j",
+    "artifactId" : "dom4j",
+    "version" : "1.6.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "xml-apis:xml-apis:jar",
+    "numericId" : 62,
+    "groupId" : "xml-apis",
+    "artifactId" : "xml-apis",
+    "version" : "1.0.b2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.hibernate.common:hibernate-commons-annotations:jar",
+    "numericId" : 63,
+    "groupId" : "org.hibernate.common",
+    "artifactId" : "hibernate-commons-annotations",
+    "version" : "4.0.5.Final",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar",
+    "numericId" : 64,
+    "groupId" : "org.hibernate.javax.persistence",
+    "artifactId" : "hibernate-jpa-2.1-api",
+    "version" : "1.0.0.Final",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar",
+    "numericId" : 65,
+    "groupId" : "org.jboss.spec.javax.transaction",
+    "artifactId" : "jboss-transaction-api_1.2_spec",
+    "version" : "1.0.0.Final",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.javassist:javassist:jar",
+    "numericId" : 66,
+    "groupId" : "org.javassist",
+    "artifactId" : "javassist",
+    "version" : "3.18.1-GA",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.hibernate:hibernate-validator:jar",
+    "numericId" : 67,
+    "groupId" : "org.hibernate",
+    "artifactId" : "hibernate-validator",
+    "version" : "5.1.3.Final",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "javax.validation:validation-api:jar",
+    "numericId" : 68,
+    "groupId" : "javax.validation",
+    "artifactId" : "validation-api",
+    "version" : "1.1.0.Final",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml:classmate:jar",
+    "numericId" : 69,
+    "groupId" : "com.fasterxml",
+    "artifactId" : "classmate",
+    "version" : "1.0.0",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.hibernate:hibernate-ehcache:jar",
+    "numericId" : 70,
+    "groupId" : "org.hibernate",
+    "artifactId" : "hibernate-ehcache",
+    "version" : "4.3.10.Final",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "net.sf.ehcache:ehcache-core:jar",
+    "numericId" : 71,
+    "groupId" : "net.sf.ehcache",
+    "artifactId" : "ehcache-core",
+    "version" : "2.6.10",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.webjars:bootstrap:jar",
+    "numericId" : 72,
+    "groupId" : "org.webjars",
+    "artifactId" : "bootstrap",
+    "version" : "2.3.0",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.webjars:jquery-ui:jar",
+    "numericId" : 73,
+    "groupId" : "org.webjars",
+    "artifactId" : "jquery-ui",
+    "version" : "1.10.3",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.webjars:jquery:jar",
+    "numericId" : 74,
+    "groupId" : "org.webjars",
+    "artifactId" : "jquery",
+    "version" : "2.0.3-1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.springframework:spring-test:jar",
+    "numericId" : 75,
+    "groupId" : "org.springframework",
+    "artifactId" : "spring-test",
+    "version" : "4.1.7.RELEASE",
+    "optional" : false,
+    "scopes" : [ "test" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "junit:junit:jar",
+    "numericId" : 76,
+    "groupId" : "junit",
+    "artifactId" : "junit",
+    "version" : "4.11",
+    "optional" : false,
+    "scopes" : [ "test" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.hamcrest:hamcrest-core:jar",
+    "numericId" : 77,
+    "groupId" : "org.hamcrest",
+    "artifactId" : "hamcrest-core",
+    "version" : "1.3",
+    "optional" : false,
+    "scopes" : [ "test" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "org.assertj:assertj-core:jar",
+    "numericId" : 78,
+    "groupId" : "org.assertj",
+    "artifactId" : "assertj-core",
+    "version" : "2.1.0",
+    "optional" : false,
+    "scopes" : [ "test" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.github.dandelion:dandelion-core:jar",
+    "numericId" : 79,
+    "groupId" : "com.github.dandelion",
+    "artifactId" : "dandelion-core",
+    "version" : "1.0.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "commons-io:commons-io:jar",
+    "numericId" : 80,
+    "groupId" : "commons-io",
+    "artifactId" : "commons-io",
+    "version" : "2.4",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.core:jackson-core:jar",
+    "numericId" : 81,
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-core",
+    "version" : "2.4.6",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.core:jackson-annotations:jar",
+    "numericId" : 82,
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-annotations",
+    "version" : "2.4.6",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.fasterxml.jackson.core:jackson-databind:jar",
+    "numericId" : 83,
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-databind",
+    "version" : "2.4.6",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.github.dandelion:datatables-core:jar",
+    "numericId" : 84,
+    "groupId" : "com.github.dandelion",
+    "artifactId" : "datatables-core",
+    "version" : "1.0.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.googlecode.json-simple:json-simple:jar",
+    "numericId" : 85,
+    "groupId" : "com.googlecode.json-simple",
+    "artifactId" : "json-simple",
+    "version" : "1.1.1",
+    "optional" : true,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "commons-beanutils:commons-beanutils:jar",
+    "numericId" : 86,
+    "groupId" : "commons-beanutils",
+    "artifactId" : "commons-beanutils",
+    "version" : "1.9.2",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "commons-collections:commons-collections:jar",
+    "numericId" : 87,
+    "groupId" : "commons-collections",
+    "artifactId" : "commons-collections",
+    "version" : "3.2.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.github.dandelion:datatables-jsp:jar",
+    "numericId" : 88,
+    "groupId" : "com.github.dandelion",
+    "artifactId" : "datatables-jsp",
+    "version" : "1.0.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.github.dandelion:dandelion-jsp:jar",
+    "numericId" : 89,
+    "groupId" : "com.github.dandelion",
+    "artifactId" : "dandelion-jsp",
+    "version" : "1.0.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.github.dandelion:datatables-export-itext:jar",
+    "numericId" : 90,
+    "groupId" : "com.github.dandelion",
+    "artifactId" : "datatables-export-itext",
+    "version" : "1.0.1",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "com.itextpdf:itextpdf:jar",
+    "numericId" : 91,
+    "groupId" : "com.itextpdf",
+    "artifactId" : "itextpdf",
+    "version" : "5.4.5",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  }, {
+    "id" : "mysql:mysql-connector-java:jar",
+    "numericId" : 92,
+    "groupId" : "mysql",
+    "artifactId" : "mysql-connector-java",
+    "version" : "5.1.45",
+    "optional" : false,
+    "scopes" : [ "compile" ],
+    "types" : [ "jar" ]
+  } ],
+  "dependencies" : [ {
+    "from" : "org.jadira.usertype:usertype.core:jar",
+    "to" : "org.jadira.usertype:usertype.spi:jar",
+    "numericFrom" : 0,
+    "numericTo" : 1,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.jadira.usertype:usertype.core:jar",
+    "numericFrom" : 2,
+    "numericTo" : 0,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.apache.tomcat:tomcat-servlet-api:jar",
+    "numericFrom" : 2,
+    "numericTo" : 3,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "javax.servlet.jsp:javax.servlet.jsp-api:jar",
+    "numericFrom" : 2,
+    "numericTo" : 4,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.apache.tomcat:tomcat-jasper-el:jar",
+    "to" : "org.apache.tomcat:tomcat-el-api:jar",
+    "numericFrom" : 5,
+    "numericTo" : 6,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.apache.tomcat:tomcat-jasper-el:jar",
+    "numericFrom" : 2,
+    "numericTo" : 5,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:jar",
+    "numericFrom" : 2,
+    "numericTo" : 7,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.apache.taglibs:taglibs-standard-jstlel:jar",
+    "to" : "org.apache.taglibs:taglibs-standard-spec:jar",
+    "numericFrom" : 8,
+    "numericTo" : 9,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.apache.taglibs:taglibs-standard-jstlel:jar",
+    "to" : "org.apache.taglibs:taglibs-standard-impl:jar",
+    "numericFrom" : 8,
+    "numericTo" : 10,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.apache.taglibs:taglibs-standard-jstlel:jar",
+    "numericFrom" : 2,
+    "numericTo" : 8,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.jayway.jsonpath:json-path:jar",
+    "to" : "net.minidev:json-smart:jar",
+    "numericFrom" : 11,
+    "numericTo" : 12,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "com.jayway.jsonpath:json-path:jar",
+    "numericFrom" : 2,
+    "numericTo" : 11,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter:jar",
+    "to" : "org.springframework.boot:spring-boot:jar",
+    "numericFrom" : 13,
+    "numericTo" : 14,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter:jar",
+    "to" : "org.springframework.boot:spring-boot-autoconfigure:jar",
+    "numericFrom" : 13,
+    "numericTo" : 15,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-logging:jar",
+    "to" : "org.slf4j:jcl-over-slf4j:jar",
+    "numericFrom" : 16,
+    "numericTo" : 17,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-logging:jar",
+    "to" : "org.slf4j:jul-to-slf4j:jar",
+    "numericFrom" : 16,
+    "numericTo" : 18,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-logging:jar",
+    "to" : "org.slf4j:log4j-over-slf4j:jar",
+    "numericFrom" : 16,
+    "numericTo" : 19,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter:jar",
+    "to" : "org.springframework.boot:spring-boot-starter-logging:jar",
+    "numericFrom" : 13,
+    "numericTo" : 16,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter:jar",
+    "to" : "org.springframework:spring-core:jar",
+    "numericFrom" : 13,
+    "numericTo" : 20,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter:jar",
+    "to" : "org.yaml:snakeyaml:jar",
+    "numericFrom" : 13,
+    "numericTo" : 21,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.springframework.boot:spring-boot-starter:jar",
+    "numericFrom" : 2,
+    "numericTo" : 13,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-aop:jar",
+    "to" : "aopalliance:aopalliance:jar",
+    "numericFrom" : 22,
+    "numericTo" : 23,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-aop:jar",
+    "to" : "org.springframework:spring-aop:jar",
+    "numericFrom" : 24,
+    "numericTo" : 22,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-data-jpa:jar",
+    "to" : "org.springframework.boot:spring-boot-starter-aop:jar",
+    "numericFrom" : 25,
+    "numericTo" : 24,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-data-jpa:jar",
+    "to" : "org.springframework.boot:spring-boot-starter-jdbc:jar",
+    "numericFrom" : 25,
+    "numericTo" : 26,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-data-jpa:jar",
+    "to" : "javax.transaction:javax.transaction-api:jar",
+    "numericFrom" : 25,
+    "numericTo" : 27,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-data-jpa:jar",
+    "to" : "org.springframework:spring-orm:jar",
+    "numericFrom" : 25,
+    "numericTo" : 28,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.data:spring-data-jpa:jar",
+    "to" : "org.springframework.data:spring-data-commons:jar",
+    "numericFrom" : 29,
+    "numericTo" : 30,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-data-jpa:jar",
+    "to" : "org.springframework.data:spring-data-jpa:jar",
+    "numericFrom" : 25,
+    "numericTo" : 29,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.boot:spring-boot-starter-data-jpa:jar",
+    "to" : "org.springframework:spring-aspects:jar",
+    "numericFrom" : 25,
+    "numericTo" : 31,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.springframework.boot:spring-boot-starter-data-jpa:jar",
+    "numericFrom" : 2,
+    "numericTo" : 25,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.data:spring-data-jdbc-core:jar",
+    "to" : "org.springframework.retry:spring-retry:jar",
+    "numericFrom" : 32,
+    "numericTo" : 33,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.springframework.data:spring-data-jdbc-core:jar",
+    "numericFrom" : 2,
+    "numericTo" : 32,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-jdbc:jar",
+    "to" : "org.springframework:spring-beans:jar",
+    "numericFrom" : 34,
+    "numericTo" : 35,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-jdbc:jar",
+    "to" : "org.springframework:spring-tx:jar",
+    "numericFrom" : 34,
+    "numericTo" : 36,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.springframework:spring-jdbc:jar",
+    "numericFrom" : 2,
+    "numericTo" : 34,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-webmvc:jar",
+    "to" : "org.springframework:spring-context:jar",
+    "numericFrom" : 37,
+    "numericTo" : 38,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-webmvc:jar",
+    "to" : "org.springframework:spring-expression:jar",
+    "numericFrom" : 37,
+    "numericTo" : 39,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework:spring-webmvc:jar",
+    "to" : "org.springframework:spring-web:jar",
+    "numericFrom" : 37,
+    "numericTo" : 40,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.springframework:spring-webmvc:jar",
+    "numericFrom" : 2,
+    "numericTo" : 37,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.springframework:spring-context-support:jar",
+    "numericFrom" : 2,
+    "numericTo" : 41,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.springframework:spring-oxm:jar",
+    "numericFrom" : 2,
+    "numericTo" : 42,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.aspectj:aspectjrt:jar",
+    "numericFrom" : 2,
+    "numericTo" : 43,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.aspectj:aspectjweaver:jar",
+    "numericFrom" : 2,
+    "numericTo" : 44,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.apache.tomcat:tomcat-jdbc:jar",
+    "to" : "org.apache.tomcat:tomcat-juli:jar",
+    "numericFrom" : 45,
+    "numericTo" : 46,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.apache.tomcat:tomcat-jdbc:jar",
+    "numericFrom" : 2,
+    "numericTo" : 45,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.slf4j:slf4j-api:jar",
+    "numericFrom" : 2,
+    "numericTo" : 47,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "ch.qos.logback:logback-classic:jar",
+    "to" : "ch.qos.logback:logback-core:jar",
+    "numericFrom" : 48,
+    "numericTo" : 49,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "ch.qos.logback:logback-classic:jar",
+    "numericFrom" : 2,
+    "numericTo" : 48,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "joda-time:joda-time:jar",
+    "numericFrom" : 2,
+    "numericTo" : 50,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "joda-time:joda-time-hibernate:jar",
+    "numericFrom" : 2,
+    "numericTo" : 51,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "joda-time:joda-time-jsptags:jar",
+    "numericFrom" : 2,
+    "numericTo" : 52,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.hsqldb:hsqldb:jar",
+    "numericFrom" : 2,
+    "numericTo" : 53,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-entitymanager:jar",
+    "to" : "org.jboss.logging:jboss-logging:jar",
+    "numericFrom" : 54,
+    "numericTo" : 55,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-entitymanager:jar",
+    "to" : "org.jboss.logging:jboss-logging-annotations:jar",
+    "numericFrom" : 54,
+    "numericTo" : 56,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-core:jar",
+    "to" : "antlr:antlr:jar",
+    "numericFrom" : 57,
+    "numericTo" : 58,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-core:jar",
+    "to" : "org.jboss:jandex:jar",
+    "numericFrom" : 57,
+    "numericTo" : 59,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-entitymanager:jar",
+    "to" : "org.hibernate:hibernate-core:jar",
+    "numericFrom" : 54,
+    "numericTo" : 57,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "dom4j:dom4j:jar",
+    "to" : "xml-apis:xml-apis:jar",
+    "numericFrom" : 60,
+    "numericTo" : 61,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-entitymanager:jar",
+    "to" : "dom4j:dom4j:jar",
+    "numericFrom" : 54,
+    "numericTo" : 60,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-entitymanager:jar",
+    "to" : "org.hibernate.common:hibernate-commons-annotations:jar",
+    "numericFrom" : 54,
+    "numericTo" : 62,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-entitymanager:jar",
+    "to" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar",
+    "numericFrom" : 54,
+    "numericTo" : 63,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-entitymanager:jar",
+    "to" : "org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar",
+    "numericFrom" : 54,
+    "numericTo" : 64,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-entitymanager:jar",
+    "to" : "org.javassist:javassist:jar",
+    "numericFrom" : 54,
+    "numericTo" : 65,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.hibernate:hibernate-entitymanager:jar",
+    "numericFrom" : 2,
+    "numericTo" : 54,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-validator:jar",
+    "to" : "javax.validation:validation-api:jar",
+    "numericFrom" : 66,
+    "numericTo" : 67,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.hibernate:hibernate-validator:jar",
+    "to" : "com.fasterxml:classmate:jar",
+    "numericFrom" : 66,
+    "numericTo" : 68,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.hibernate:hibernate-validator:jar",
+    "numericFrom" : 2,
+    "numericTo" : 66,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.hibernate:hibernate-ehcache:jar",
+    "numericFrom" : 2,
+    "numericTo" : 69,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "net.sf.ehcache:ehcache-core:jar",
+    "numericFrom" : 2,
+    "numericTo" : 70,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.webjars:bootstrap:jar",
+    "numericFrom" : 2,
+    "numericTo" : 71,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.webjars:jquery-ui:jar",
+    "numericFrom" : 2,
+    "numericTo" : 72,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.webjars:jquery:jar",
+    "numericFrom" : 2,
+    "numericTo" : 73,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.springframework:spring-test:jar",
+    "numericFrom" : 2,
+    "numericTo" : 74,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "junit:junit:jar",
+    "to" : "org.hamcrest:hamcrest-core:jar",
+    "numericFrom" : 75,
+    "numericTo" : 76,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "junit:junit:jar",
+    "numericFrom" : 2,
+    "numericTo" : 75,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "org.assertj:assertj-core:jar",
+    "numericFrom" : 2,
+    "numericTo" : 77,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.github.dandelion:dandelion-core:jar",
+    "to" : "commons-io:commons-io:jar",
+    "numericFrom" : 78,
+    "numericTo" : 79,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.github.dandelion:dandelion-core:jar",
+    "to" : "com.fasterxml.jackson.core:jackson-core:jar",
+    "numericFrom" : 78,
+    "numericTo" : 80,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.github.dandelion:dandelion-core:jar",
+    "to" : "com.fasterxml.jackson.core:jackson-annotations:jar",
+    "numericFrom" : 78,
+    "numericTo" : 81,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.github.dandelion:dandelion-core:jar",
+    "to" : "com.fasterxml.jackson.core:jackson-databind:jar",
+    "numericFrom" : 78,
+    "numericTo" : 82,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.github.dandelion:datatables-core:jar",
+    "to" : "com.github.dandelion:dandelion-core:jar",
+    "numericFrom" : 83,
+    "numericTo" : 78,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.github.dandelion:datatables-core:jar",
+    "to" : "com.googlecode.json-simple:json-simple:jar",
+    "numericFrom" : 83,
+    "numericTo" : 84,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "commons-beanutils:commons-beanutils:jar",
+    "to" : "commons-collections:commons-collections:jar",
+    "numericFrom" : 85,
+    "numericTo" : 86,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.github.dandelion:datatables-core:jar",
+    "to" : "commons-beanutils:commons-beanutils:jar",
+    "numericFrom" : 83,
+    "numericTo" : 85,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.github.dandelion:datatables-jsp:jar",
+    "to" : "com.github.dandelion:datatables-core:jar",
+    "numericFrom" : 87,
+    "numericTo" : 83,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.github.dandelion:datatables-jsp:jar",
+    "to" : "com.github.dandelion:dandelion-jsp:jar",
+    "numericFrom" : 87,
+    "numericTo" : 88,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "com.github.dandelion:datatables-jsp:jar",
+    "numericFrom" : 2,
+    "numericTo" : 87,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "com.github.dandelion:datatables-export-itext:jar",
+    "to" : "com.itextpdf:itextpdf:jar",
+    "numericFrom" : 89,
+    "numericTo" : 90,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "com.github.dandelion:datatables-export-itext:jar",
+    "numericFrom" : 2,
+    "numericTo" : 89,
+    "resolution" : "INCLUDED"
+  }, {
+    "from" : "org.springframework.samples:spring-petclinic:war",
+    "to" : "mysql:mysql-connector-java:jar",
+    "numericFrom" : 2,
+    "numericTo" : 91,
+    "resolution" : "INCLUDED"
+  } ]
+}
